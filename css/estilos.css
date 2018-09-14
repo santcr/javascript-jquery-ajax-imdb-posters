@@ -1,0 +1,32 @@
+.ui-focus {
+ -moz-box-shadow: none !important;
+ -webkit-box-shadow: none !important;
+ box-shadow: none !important;
+}
+
+a:link, a:visited, a:hover {
+    color: #22d3cd !important;
+}
+
+.navegacion a:link, .navegacion a:visited, .navegacion a:hover {
+    color: #ffffff !important;
+}
+
+input[type=button]:hover {
+    transform: translateY(4px) !important;
+}
+
+#divRes img{
+    width: 70px;
+    float: left;
+    margin-right: 22px;
+}
+
+#divDetalles img{
+    width: 100%;
+}
+
+#divDetalles img.estrellita {
+    width: 33px;
+    
+}

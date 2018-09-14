@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="css/jquery.mobile.structure-1.4.5.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/jquery.mobile.icons.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/tema.css" rel="stylesheet" type="text/css"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="navegacion" data-display="overlay" data-theme="b" data-role="panel" id="panel">
+            <ul data-role="listview">
+                <li><a href="#pBuscar">Buscar</a></li>
+                <li><a href="#pResultados">Resultados</a></li>
+                <li><a href="#pDetalles">Detalles</a></li>
+            </ul>
+        </div>
+        
+        <!––--------------------------------------- Buscar ––--------------------------------------->
+        <div data-role="page" id="pBuscar">
+            <div data-role="header" data-position="fixed">
+                <a href="#panel" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-btn-corner-all"></a>
+                <h1>Buscar</h1>
+            </div>
+            
+            <div class="ui-content">
+                <br>
+                <label for="txtPelicula">Película </label>
+                <input type="text" id="txtPelicula">
+                
+                <br>
+                <input type="button" id="btnBuscar" value="Buscar">
+                <br><br><br>
+                <p>Santiago C - Taller de Tecnologías Julio 2018 - Analista Programador ORT</p>
+                <p>App para dispositivos móviles que consulta la API de IMDB. Javascript, Ajax, Jquery, Html, CSS.</p>
+            </div>
+            
+            <div data-role="footer" data-position="fixed">
+                <h1> </h1>
+            </div>
+            
+        </div>
+        
+        
+        
+        <!––--------------------------------------- Resultados ––--------------------------------------->
+        <div data-role="page" id="pResultados">
+            <div data-role="header" data-position="fixed">
+                <a href="#panel" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-btn-corner-all "></a>
+                <h1>Resultados</h1>
+            </div>
+            
+            <div id="divRes" class="ui-content">
+                
+                
+                
+            </div>
+            
+            <div data-role="footer" data-position="fixed">
+                <h1> </h1>
+            </div>
+        </div>
+        
+        
+        
+        <!––--------------------------------------- Detalles ––--------------------------------------->
+        <div data-role="page" id="pDetalles">
+            <div data-role="header" data-position="fixed">
+                <a href="#panel" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-btn-corner-all"></a>
+                <a data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-notext ui-btn-corner-all"></a>
+                <h1>Detalles</h1>
+            </div>
+            
+            <div id="divDetalles" class="ui-content">
+                
+                
+                
+                
+                
+            </div>
+            
+            <div data-role="footer" data-position="fixed">
+                <h1> </h1>
+            </div>
+        </div>
+        
+        
+        
+        
+        <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+        <script src="js/jquery.mobile-1.4.5.js" type="text/javascript"></script>
+        <script src="js/codigo.js" type="text/javascript"></script>
+    </body>
+</html>
